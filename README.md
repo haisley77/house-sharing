@@ -96,7 +96,6 @@
 
 - 팀 Notion에 Git 행동 강령과 Commit convention 작성, 공유
 
-![Git](https://github.com/namoo1818/Baekjoon/assets/50236187/fddaf9b8-b410-4e43-a999-d3fa9c97b5fd)
 
 
 - 작업 브랜치 전략
