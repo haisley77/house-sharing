@@ -63,13 +63,11 @@
 - Figma 활용 UI/UX 디자인 진행
 - 기능 develop
 
-![Wireframe](https://github.com/namoo1818/Baekjoon/assets/50236187/7cb62436-eecb-46c4-9c7d-31f91acb8901)
 
 ### ✏ ER-Diagram
 
 - ERD Cloud 활용
 
-![ERD](https://github.com/namoo1818/Baekjoon/assets/50236187/4acf6827-3e3a-46e0-a3e5-f0840302f882)
 
 ### ✏ System Architecture
 
