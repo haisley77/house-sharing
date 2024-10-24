@@ -63,10 +63,12 @@
 - Figma 활용 UI/UX 디자인 진행
 - 기능 develop
 
+![image](https://github.com/user-attachments/assets/0d45f1a1-6887-432d-8722-e25c7b662a00)
+
 
 ### ✏ ER-Diagram
 
-- ERD Cloud 활용
+![image](https://github.com/user-attachments/assets/5a542c76-e1c7-4675-9755-b6ab56b57ad3)
 
 
 ### ✏ System Architecture
@@ -96,6 +98,8 @@
 
 - 팀 Notion에 Git 행동 강령과 Commit convention 작성, 공유
 
+![image](https://github.com/user-attachments/assets/29456bf5-6a4c-47dd-a707-5546733fb9ce)
+
 
 
 - 작업 브랜치 전략
@@ -109,19 +113,22 @@ master - develop - feature - backend - 기능
 # 🏠 서비스 화면 및 기능 소개
 
 ### 👪 랜딩 및 로그인 페이지
-![image](https://github.com/NoRuTnT/becareful/assets/114069644/694ab51f-ec75-4f75-b7b1-115662e7f8f4)
+![image](https://github.com/user-attachments/assets/f2b6cc0b-b382-48b3-938d-d24b3710db8a)
+
 ### 🧓 메인 홈 페이지
 #### 🧓 지도
 - 지도 상 위치 및 헤더 필터, 상세 필터 기반 집 추천
 
-![집추천1](https://github.com/namoo1818/Baekjoon/assets/50236187/d3b654e1-7195-4de4-8adb-c859a97db264)
-![집추천2](https://github.com/namoo1818/Baekjoon/assets/50236187/950437a5-8919-4549-8eea-ffa3909598ba)
+![image](https://github.com/user-attachments/assets/a1bf87a0-e841-479f-8110-a0877ca06746)
+![image](https://github.com/user-attachments/assets/836916f1-30b3-4678-903b-88048725d5b3)
+
 
 #### 🧓 집 추천
 - 집 리스트 지도와 연동
 
-![집추천3](https://github.com/namoo1818/Baekjoon/assets/50236187/0b14d763-dd6a-4f3b-ba91-f5abd2d2be5d)
-![집추천4](https://github.com/namoo1818/Baekjoon/assets/50236187/4b29f751-5fbb-41e0-b3c4-182433cf3a7a)
+![image](https://github.com/user-attachments/assets/4503aed2-a7ed-4258-a30d-703b594f4d30)
+![image](https://github.com/user-attachments/assets/b911392c-94fd-44ff-b531-80ebc594dfb7)
+
 
 ### 🧓 집 신청 및 집 상세 정보
 - 집 옵션 및 호스트 정보 조회
@@ -160,14 +167,15 @@ master - develop - feature - backend - 기능
 ### 🧓 활동 인증 및 보호자 알림
 - 활동 내역 인증
 
-![활동 내역 인증1](https://github.com/namoo1818/Baekjoon/assets/50236187/bfa1fac2-03b2-4a44-a157-633e4e38022e)
-![활동 내역 인증2](https://github.com/namoo1818/Baekjoon/assets/50236187/bf5651a4-8f05-4e4c-9773-96cc9029ec34)
+![image](https://github.com/user-attachments/assets/4d04a599-c353-4be8-a777-c6f4dba4c6bf)
+![image](https://github.com/user-attachments/assets/f5345ec7-5690-414f-b5a1-ca130f9e7425)
+
 
 
 - 리뷰
 
-![리뷰1](https://github.com/namoo1818/Baekjoon/assets/50236187/4709ba64-7c8a-4fb7-bca8-c78993c04825)
-![리뷰2](https://github.com/namoo1818/Baekjoon/assets/50236187/016025de-0b4b-4843-aec1-cdaa029da595)
+![image](https://github.com/user-attachments/assets/bd0985b1-0cec-47b0-a75d-ca3de2981979)
+![image](https://github.com/user-attachments/assets/d3a8b407-73a0-4dd2-9144-7d78b6a4d623)
 
 # 🏠 기술 스택
 
@@ -203,18 +211,20 @@ master - develop - feature - backend - 기능
 - 추천에 불필요한 정보 제거 : ex) 공인중개사 주소정보
 - 결측치 제거 : ex) 시군구 주소정보 -> 더미 문자열로
 [결측치가 제거(empty로 padding)된 데이터셋]
-![image-1](https://github.com/namoo1818/Baekjoon/assets/50236187/139242df-0454-4d64-ab16-0c7d085b4e43)
+![image](https://github.com/user-attachments/assets/618fe22f-6bde-4376-85a2-d85e408961fb)
+
 - 획득 정보들의 자료형 정리 : ex) lat: float, address: str
 
 총 1264개 데이터 수집
 
 ### 💡 추천 알고리즘
 
-- 부동산은 계약 주기가 길기 때문에 (6개월 이상) 컨텐츠 기반 추천 알고리즘을 사용하기에 부적합 ⇒ 컨텐츠 기반 추천 알고리즘 고도화 추진
+- 부동산은 계약 주기가 길기 때문에 (6개월 이상) 협업 필터링을 사용하기에 부적합 ⇒ 컨텐츠 기반 추천 알고리즘 고도화 추진
 
 - 코사인 유사도 : 두 벡터간 각도 코사인값을 이용하여 측정된 벡터간의 유사한 정도
 [출처:https://wikidocs.net/24603]
-![image](https://github.com/namoo1818/Baekjoon/assets/50236187/8050bbe0-5366-4358-b124-eff69bda5419)
+![image](https://github.com/user-attachments/assets/49fd5c60-06b4-4fee-a4f7-cb9e6fd0a39f)
+
 1. host선호 정보와 member선호 정보의 종류로부터 특성을 정리하고 각각 벡터화
 ```python
 def get_member_vector(member_personality):
@@ -268,9 +278,11 @@ item = db.home.find({'home_no': index[1]}, {'type': 1,
                              })
 ```
 - 최적화 이전<br/>
-![최적화이전](https://github.com/namoo1818/Baekjoon/assets/50236187/2ffea411-3b3c-4303-832e-41fa7e5e6d44)
+![image](https://github.com/user-attachments/assets/0f6a4978-f9c9-4858-af33-b3c06b34a1f4)
+
 - 최적화 이후<br/>
-![최적화이후](https://github.com/namoo1818/Baekjoon/assets/50236187/e4602de6-3d45-47a7-8f9a-7e961fe3903a)
+![image](https://github.com/user-attachments/assets/5bc6df18-3b75-4a6b-9578-cd02a402bb4c)
+
 ### 💡 AWS S3 활용 파일 처리
 - presined url 방식
 
